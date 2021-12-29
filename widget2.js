@@ -21,7 +21,7 @@
             let cssLink = document.createElement('link');
             cssLink.rel = 'stylesheet';
             cssLink.type = 'text/css';
-            cssLink.href = './widget2.css';
+            cssLink.href = 'https://cdn.jsdelivr.net/gh/iwakinomotoye/widget@0c5cf7d4e5056c83581a0e3e0fb947154293ca0f/widget2.css';
 
             let entry = document.getElementsByTagName('script')[0];
             entry.parentNode.insertBefore(cssLink, entry);
